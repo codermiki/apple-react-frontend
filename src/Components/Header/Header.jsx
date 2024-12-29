@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import logo from "../../commonResource/images/icons/logo-sm.png";
+import logo from "../../assets/images/icons/logo-sm.png";
 import React from "react";
-import cart from "../../commonResource/images/icons/cart-sm.png";
-import search from "../../commonResource/images/icons/search-icon-sm.png";
+import cart from "../../assets/images/icons/cart-sm.png";
+import search from "../../assets/images/icons/search-icon-sm.png";
 function Header() {
   return (
     <>

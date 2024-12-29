@@ -1,6 +1,6 @@
-import apple_tv_logo from "../../commonResource/images/icons/apple-tv-logo.png";
-import banker from "../../commonResource/images/home/banker.png";
-import watch_series from "../../commonResource/images/icons/watch-series5-logo.png";
+import apple_tv_logo from "../../assets/images/icons/apple-tv-logo.png";
+import banker from "../../assets/images/home/banker.png";
+import watch_series from "../../assets/images/icons/watch-series5-logo.png";
 
 function FifthHighlight() {
   return (

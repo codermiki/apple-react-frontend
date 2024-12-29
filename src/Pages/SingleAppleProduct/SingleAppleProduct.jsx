@@ -7,23 +7,9 @@ function SingleAppleProduct() {
 
   const [product, setProducts] = useState([]);
 
-  // useEffect(() => {
-  //   fetch("http://localhost:4000/iphone")
-  //     .then((response) => {
-  //       return response.json();
-  //     })
-  //     .then((data) => {
-  //       const singleProduct = data.filter(
-  //         (Product) => Product.product_url == url
-  //       );
-  //       setProducts(() => singleProduct);
-  //       // console.log(data);
-  //     });
-  // }, []);
-
   useEffect(() => {
     axios
-      .get("http://localhost:4000/iphone")
+      .get("https://apple-react-backend.onrender.com/iphone")
       .then((response) => {
         return response.data;
       })
