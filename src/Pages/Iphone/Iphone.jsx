@@ -8,7 +8,7 @@ function Iphone() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:4000/iphone")
+      .get("https://apple-react-backend.onrender.com/iphone")
       .then((response) => {
         return response.data;
       })
